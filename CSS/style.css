@@ -41,7 +41,7 @@ nav {
             }
         
         .list {
-            width: 70%;
+            width: 80%;
             list-style-type: none;
             display:flex;
             flex-wrap: wrap;
@@ -49,13 +49,23 @@ nav {
             align-items: center;
         }
 
-            .list a {
-                text-decoration: none;
-                color: #4f4f52;
+            .item {
+                height: 98%;
+                padding: 5%;
             }
+
+                .item:hover {
+                    border-bottom: 3px solid #000;
+                }
+
+                .list a {
+                    text-decoration: none;
+                    color: #4f4f52;
+                }
 
         .button {
             background-color: #1222ff;
+            opacity: 1;
             height: 50%;
             width: 15%;
             margin-top: 13px;
@@ -63,6 +73,10 @@ nav {
             padding: 5px;
             padding-left: 18px;
         }
+
+            .button:hover {
+                opacity: 0.75;
+            }
 
             .button a {
                 text-decoration: none;
