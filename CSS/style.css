@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+
+/* Header Rules */
+nav {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    /* DEBUG */
+    background-color: aqua;
+}
+
+    nav>div {
+        /* DEBUG */
+        width: 30%;
+        height: 100%;
+        border: 1px dashed black;
+        background-color: blue;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+        .menu div {
+            /* DEBUG */
+            width: 50%;
+            height: 100%;
+            border: 1px dashed red;
+        }
+
+#jumbotron {
+    /* DEBUG */
+    background-color: chartreuse;
+    height: 600px;
+}
+
+    #jumbotron div {
+        /* DEBUG */
+        width: 60%;
+        height: 100%;
+        background-color: darkcyan;
+        border: 1px dashed #fff;
+        margin: 0 auto;
+    }
+
+/* Main Rules */
+.center {
+    /* DEBUG */
+    width: 50%;
+    min-height: 700px;
+    margin: 0 auto;
+    background-color: darkred;
+    border: 1px solid black;
+}
+
+#customers {
+    /* DEBUG */
+    width: 100%;
+    min-height: 300px;
+    background-color: blueviolet;
+    border: 1px solid violet;
+}
+
+#free {
+    /* DEBUG */
+    width: 100%;
+    min-height: 200px;
+    background-color: navajowhite;
+    border: 1px solid darkmagenta;
+}
+
+#faq {
+    /* DEBUG */
+    width: 100%;
+    min-height: 300px;
+    background-color: lawngreen;
+    border: 1px solid seagreen;
+}
+
+/* Footer Rules */
+footer {
+    /* DEBUG */
+    height: 300px;
+    background-color: black;
+    border: 1px dashed #fff;
+}
+
+    footer section {
+        display: flex;
+        /* DEBUG */
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+        background-color: gray;
+        border: 1px solid aqua;
+    } 
+
+        #bot div {
+            /* DEBUG */
+            width: calc(100% / 5);
+            height: 70%;
+            border: 1px dashed khaki;
+        }    
