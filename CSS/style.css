@@ -7,7 +7,6 @@
 body {
     font-family: "Open Sans", sans-serif;
     font-size: 13px;
-    /* background-color: #fff; */
 }
 
 /* Header Rules */
@@ -19,16 +18,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* DEBUG */
-    /* background-color: aqua; */
 }
 
     .menu {
-        /* DEBUG */
         width: 30%;
         height: 100%;
-        /* border: 1px dashed black; */
-        /* background-color: blue; */
     }
 
     .menu {
@@ -76,17 +70,13 @@ nav {
             }
 
 #jumbotron {
-    /* DEBUG */
     background-color: #9bc4e8;
     height: 600px;
 }
 
     .container {
-        /* DEBUG */
         width: 60%;
         height: 100%;
-        /* background-color: darkcyan; */
-        /* border: 1px dashed #fff; */
         margin: 0 auto;
         padding-top: 8%;
     }
@@ -120,7 +110,7 @@ nav {
 
                 .img img {
                     max-width: 100%;
-                    box-shadow: 1px #black;
+                    box-shadow: 1px #000;
                 }
 
             #arrow {
@@ -169,25 +159,53 @@ nav {
 
 /* Footer Rules */
 footer {
-    /* DEBUG */
-    height: 300px;
+    height: 500px;
     background-color: black;
-    border: 1px dashed #fff;
 }
 
-    footer section {
+    #bot {
         display: flex;
-        /* DEBUG */
+        flex-wrap: wrap;
         width: 70%;
-        height: 100%;
         margin: 0 auto;
-        background-color: gray;
-        border: 1px solid aqua;
     } 
 
-        #bot div {
-            /* DEBUG */
+        .credits {
             width: calc(100% / 5);
-            height: 70%;
-            border: 1px dashed khaki;
-        }    
+            margin-top: 50px;
+            margin-bottom: 100px;
+        }
+
+            .title {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+                .sec-menu {
+                    list-style-type: none;
+                    margin-top: 20px;
+                }
+
+                    .sec-menu li {
+                        margin-top: 10px;
+                    }
+
+                        .sec-menu a {
+                            text-decoration: none;
+                            color: #fff;
+                        }
+
+    #lang {
+        width: 70%;
+        height: 30%;
+        margin: 0 auto;
+    }   
+    
+        #ita {
+            width: 10%;
+            height: 100%;
+            color: #b1b2b3;
+            padding-top: 5%;
+            border-top: 1px solid #fff;
+        }
