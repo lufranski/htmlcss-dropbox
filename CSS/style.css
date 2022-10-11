@@ -329,6 +329,10 @@ nav {
                     color: #4f4f52;
                 }
 
+        .center.feat {
+            margin-bottom: 10%;
+        }    
+            
             .cen-tit.feat {
                 font-size: 34px;
             }
@@ -341,7 +345,15 @@ nav {
                     .img.feat {
                         width: 100%;
                     }
-
+        
+        .center.fom {
+            width: 40%;
+            margin-right: 35%;
+        }    
+            
+            .cen-tit.fom {
+                margin-bottom: 10%;
+            }
 
 
 
