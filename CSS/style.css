@@ -70,12 +70,14 @@ nav {
         .button {
             background-color: #1222ff;
             opacity: 1;
-            height: 50%;
-            width: 15%;
-            margin-top: 13px;
-            margin-right: 15px;
-            padding: 5px;
-            padding-left: 18px;
+            margin: 10px 20px;
+            padding: 11px;
+            /* height: 50%;
+            width: 15%; */
+            /* margin-top: 13px;
+            margin-right: 15px; */
+            /* padding: 5px;
+            padding-left: 18px; */
         }
 
             .button:hover {
@@ -89,7 +91,7 @@ nav {
 
 #jumbotron {
     background-color: #9bc4e8;
-    height: 570px;
+    height: 585px;
 }
 
     .container {
@@ -100,7 +102,7 @@ nav {
     }
 
         #jumbo-title {
-            font-size: 55px;
+            font-size: 60px;
             font-weight: 800;
         }
 
@@ -139,41 +141,147 @@ nav {
                     text-decoration: none;
                     color: #000;
                     font-size: 40px;
-                }    
+                }
+                
+            .button.jumbo {
+                padding: 2%;
+            }
 
 /* Main Rules */
-.center {
-    /* DEBUG */
-    width: 50%;
-    min-height: 700px;
-    margin: 0 auto;
-    background-color: darkred;
-    border: 1px solid black;
+main {
+    margin-top: 5%;
 }
 
-#customers {
-    /* DEBUG */
-    width: 100%;
-    min-height: 300px;
-    background-color: blueviolet;
-    border: 1px solid violet;
-}
+    .center {
+        /* DEBUG */
+        width: 50%;
+        min-height: 700px;
+        margin: 0 auto;
+        /* background-color: darkred; */
+        /* border: 1px solid black; */
+    }
 
-#free {
-    /* DEBUG */
-    width: 100%;
-    min-height: 200px;
-    background-color: navajowhite;
-    border: 1px solid darkmagenta;
-}
+        .cen-tit {
+            font-size: 35px;
+            color: #000;
+            margin-bottom: 5%;
+        }
 
-#faq {
-    /* DEBUG */
-    width: 100%;
-    min-height: 300px;
-    background-color: lawngreen;
-    border: 1px solid seagreen;
-}
+        #unchecked {
+            margin-left: 5%;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+            .col.card {
+                border: 1px solid grey;
+                width: calc(95% / 3);
+            }
+
+                .pack {
+                    border-bottom: 1px solid grey;
+                    text-align: center;
+                    padding: 2%;
+                }
+
+                .main-card-cont {
+                    margin: 10%;
+                }
+
+                    .main-card-cont h5 {
+                        margin-top: 3%;
+                    }
+
+                    .main-card-cont ul {
+                        margin-top: 10%;
+                    }
+
+                        .main-card-cont li {
+                            margin-top: 5%;
+                        }
+
+                .car-tit {
+                    font-size: 20px;
+                    color: #000;
+                }
+
+                .mon {
+                    color: #4f4f52;
+                    font-weight: 500;
+                }
+
+                .col ul {
+                    list-style-type: none;
+                }
+
+                .checkbox {
+                    width: 15px;
+                    height: 15px;
+                    display: inline-block;
+                    border: 1px solid grey;
+                    border-radius: 50%;
+                }
+
+                .checkbox.active {
+                    border: 4px solid #1222ff;
+                }
+
+                .button.card {
+                    text-align: center;
+                    margin-top: 15%;
+                    margin-bottom: 10%;
+                }
+
+                        .check {
+                            color: #1222ff;
+                        }
+
+                #buynow {
+                    margin-bottom: 10%;
+                }
+                
+                .line {
+                    width: 40px;
+                    height: 40px;
+                    border-bottom: 1px solid grey;
+                    margin-bottom: 40px;
+                }
+
+                #ent {
+                    margin-top: 20%;
+                }
+
+                .ent-btn {
+                    padding: 20px;
+                }
+
+    #carousel {
+        /* DEBUG */
+        width: 100%;
+        min-height: 300px;
+        background-color: blueviolet;
+        border: 1px solid violet;
+    }
+
+    #free {
+        /* DEBUG */
+        width: 100%;
+        min-height: 200px;
+        background-color: navajowhite;
+        border: 1px solid darkmagenta;
+    }
+
+    #faq {
+        /* DEBUG */
+        width: 100%;
+        min-height: 300px;
+        background-color: lawngreen;
+        border: 1px solid seagreen;
+    }
 
 /* Footer Rules */
 footer {
