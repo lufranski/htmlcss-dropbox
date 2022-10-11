@@ -149,17 +149,23 @@ nav {
 
 /* Main Rules */
 main {
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
 
     .center {
         /* DEBUG */
         width: 50%;
         min-height: 700px;
-        margin: 0 auto;
+        margin: 5% auto;
         /* background-color: darkred; */
-        /* border: 1px solid black; */
+        border: 1px solid black;
+
     }
+
+        span a {
+            text-decoration: none;
+            color: #000;
+        }
 
         .cen-tit {
             font-size: 35px;
@@ -258,6 +264,37 @@ main {
                 .ent-btn {
                     padding: 20px;
                 }
+            
+            .col.card.hor {
+                width: 100%;
+            }  
+            
+                .hor-main {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+
+                    #txt {
+                        width: 70%;
+                        margin-right: 2%;
+                        padding: 2%;
+                    }
+
+                        #txt h5 {
+                            margin-top: 3%;
+                            margin-bottom: 10%;
+                        }
+
+                        #txt p {
+                            font-size: 11px;
+                        }
+
+                    .button.hor {
+                        height: 10%;
+                        margin-top: 2%;
+                    }
+
+                   
 
     #carousel {
         /* DEBUG */
