@@ -130,7 +130,6 @@ nav {
 
                 .img img {
                     max-width: 100%;
-                    box-shadow: 1px #000;
                 }
 
             #arrow {
@@ -294,8 +293,47 @@ main {
                         margin-top: 2%;
                     }
 
-                   
+    .center.partner {
+        margin-top: 8%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+        .photo {
+            width: 60%;
+        }
+
+            .photo img {
+                max-width: 100%;
+            }
+
+        .txt.partner {
+            width: 40%;
+            padding: 5%;
+        }
+
+            .txt.partner h3 {
+                font-size: 16px;
+            }
+
+            .txt.partner p {
+                font-size: 12px;
+                margin-top: 5%;
+            }
+
+            .button.gray {
+                margin-top: 10%;
+                margin-left: 0%;
+                background-color: #fff;
+                border: 1px solid #4f4f52;
+                padding: 3%;
+                text-align: center;
+            }
+
+                .button.gray a {
+                    text-decoration: none;
+                    color: #4f4f52;
+                }
     #carousel {
         /* DEBUG */
         width: 100%;
