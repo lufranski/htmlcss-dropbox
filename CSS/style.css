@@ -147,18 +147,12 @@ nav {
             }
 
 /* Main Rules */
-main {
-    /* margin-top: 5%; */
-}
+
 
     .center {
         /* DEBUG */
         width: 50%;
-        min-height: 700px;
         margin: 5% auto;
-        /* background-color: darkred; */
-        border: 1px solid black;
-
     }
 
         span a {
@@ -334,6 +328,24 @@ main {
                     text-decoration: none;
                     color: #4f4f52;
                 }
+
+            .cen-tit.feat {
+                font-size: 34px;
+            }
+
+                .col.feat {
+                    width: calc(95% / 3);
+                    gap: 2.5%;
+                }    
+                    
+                    .img.feat {
+                        width: 100%;
+                    }
+
+
+
+
+
     #carousel {
         /* DEBUG */
         width: 100%;
