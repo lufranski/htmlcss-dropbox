@@ -388,7 +388,8 @@ nav {
                     width: 50%;
                     height: 100%;
                     background-color: #4dbf82;
-                    position: relative;       
+                    position: relative;
+                    cursor: pointer;       
                 }
 
                     .des:hover {
